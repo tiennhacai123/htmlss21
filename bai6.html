@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var math = +prompt("Nhap diem toan:");
+    var litter = +prompt("Nhap diem van:");
+    var english = +prompt("Nhap diem anh:");
+    var average = (math + litter + english)/3;
+    if(8.0<=average&&average<=10.0){
+        console.log("Gioi");
+    }else if(6.5<=average&&average<=7.9){
+        console.log("Kha");
+    }else if(5.0<=average&&average<=6.4){
+        console.log("Trung binh");
+    }else if(0<=average&&average<5.0){
+        console.log("Yeu");
+    }
+</script>
+</html>
